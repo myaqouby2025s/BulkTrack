@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+        AB0000000000000000000010 = {isa = PBXContainerItemProxy; containerPortal = 98F54143AB4E86B28C3AFEE0; proxyType = 1; remoteGlobalIDString = 0E8A3AD980EC179856012B7E; remoteInfo = BulkTrack; };
+/* End PBXContainerItemProxy section */
+/* Begin PBXTargetDependency section */
+        AB0000000000000000000011 = {isa = PBXTargetDependency; target = 0E8A3AD980EC179856012B7E; targetProxy = AB0000000000000000000010; };
+/* End PBXTargetDependency section */
+/* Begin PBXBuildFile section */
+		0A7B1C56E2FE1DCD48242126 /* BulkTrack/DiaryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D644F81185B3957FBEA4F2F /* BulkTrack/DiaryStore.swift */; };
+		1506E762EE2077EF748D1852 /* BulkTrack/Core/TrackingCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A605900FAE91D96FDF878B /* BulkTrack/Core/TrackingCalendar.swift */; };
+		2F67FD77A78B33AECC81014E /* BulkTrack/Views/TrainingPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3520105B874B002F524DE8 /* BulkTrack/Views/TrainingPlanView.swift */; };
+		37DE405E39FA6DEA1E5C527A /* BulkTrack/Core/CalorieEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F0A4900560CB7DE0CA22A7 /* BulkTrack/Core/CalorieEngine.swift */; };
+		39AFCB2F09943F994940B98A /* BulkTrack/HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD134E3CDCFE93F26E7AA9FF /* BulkTrack/HealthKitManager.swift */; };
+		4EE2BE9F0FBD690002C66F71 /* BulkTrack/Views/GymCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE84CD7A89F0170B0FB7667 /* BulkTrack/Views/GymCalendarView.swift */; };
+		52394D8F4B214B3BFA042FAD /* BulkTrack/Views/ProgressChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB2C861A7ED9EDBD24303C /* BulkTrack/Views/ProgressChartsView.swift */; };
+		5CBCDBE2280933A254A86387 /* BulkTrack/Core/USUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F2C192493AC4D4B308680 /* BulkTrack/Core/USUnits.swift */; };
+		693524F7E896AC04B2932137 /* BulkTrack/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4818E3E77D3E168A07544557 /* BulkTrack/Models.swift */; };
+		7536B1E066C9ED194EA2ABF7 /* BulkTrack/Views/DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7E0884872C2E0EF1E65FB /* BulkTrack/Views/DesignSystem.swift */; };
+		7A12F085D804FFA9460DD7D7 /* BulkTrack/Core/Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF750154625DCDEFFA0070 /* BulkTrack/Core/Routine.swift */; };
+		83407BDFBF38AE924383C3B0 /* BulkTrack/Views/EntryForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF906F386D323E92A6AF5792 /* BulkTrack/Views/EntryForms.swift */; };
+		97FE16DD5EC8561C912BDF3E /* BulkTrack/BulkTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02369CDA451A6EC3F16D59CB /* BulkTrack/BulkTrackApp.swift */; };
+		99836AED767A35803C02B5DF /* BulkTrack/Core/WeightTrend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7FAFD992E8DEA417EB9A8C /* BulkTrack/Core/WeightTrend.swift */; };
+		9FFB8513B348F2DC7A586F50 /* BulkTrack/Core/CalendarFitnessPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619AB6AD2B17E736E1847C8 /* BulkTrack/Core/CalendarFitnessPlan.swift */; };
+		B3220D3FF0C7BED503B8907A /* BulkTrack/Views/DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C1DAD9E04B21299E3292E3 /* BulkTrack/Views/DashboardView.swift */; };
+		EA9C2853E7160F0116C7BF0D /* BulkTrack/Core/WorkoutPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D58E8A19B38E2AEF143844 /* BulkTrack/Core/WorkoutPlan.swift */; };
+		F5A0192B813686C44889357B /* BulkTrack/Core/SleepIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F06F0AAB1F32982FA57A /* BulkTrack/Core/SleepIntervals.swift */; };
+		BF92DE36F795A03BA70A178D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CFE1F2F2DA90D38B9C5A19; };
+		A012EA51B4A766E90CA7F0EA /* NumericInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA9A4FE8BF504AC911EEFF7; };
+		BC471318843956ECFF4F0971 /* BulkTrack/Core/BackupSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A97E239BBFB9879826E563; };
+		ECB579E5944D6600AF68D940 /* BulkTrack/Core/TrainingSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0954B3736A0670A255E37; };
+		DCBC45332357D0734799B5F0 /* BulkTrack/DataBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47D9481F1046DFB3FCDAB8; };
+		9634D1C80BBD58F1F4B774F9 /* BulkTrack/Views/NutritionDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6EC3648F3A8EECCA995DD; };
+		F823DEAB033A77F63CFB5C98 /* BulkTrack/Views/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBACD91B846E9B3864B74A8; };
+		85F4301B19659C896590D62A /* BulkTrack/Views/TrainingScheduleEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7003D915B374794F2133E1; };
+		7D115FC8E0F1B04FB5ABB002 /* BulkTrack/Views/WorkoutSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C667DCEE071BEAB768B4E8C; };
+		AB0000000000000000000001 = {isa = PBXBuildFile; fileRef = AB0000000000000000000002; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02369CDA451A6EC3F16D59CB /* BulkTrack/BulkTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/BulkTrackApp.swift; sourceTree = SOURCE_ROOT; };
+		1A3520105B874B002F524DE8 /* BulkTrack/Views/TrainingPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Views/TrainingPlanView.swift; sourceTree = SOURCE_ROOT; };
+		1D644F81185B3957FBEA4F2F /* BulkTrack/DiaryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/DiaryStore.swift; sourceTree = SOURCE_ROOT; };
+		2BE7E0884872C2E0EF1E65FB /* BulkTrack/Views/DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Views/DesignSystem.swift; sourceTree = SOURCE_ROOT; };
+		38A007151ABE87CC01A5B6E9 /* BulkTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulkTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AECD65E9DB6AF157AB9B203 /* BulkTrack/BulkTrack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BulkTrack/BulkTrack.entitlements; sourceTree = SOURCE_ROOT; };
+		41F0A4900560CB7DE0CA22A7 /* BulkTrack/Core/CalorieEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Core/CalorieEngine.swift; sourceTree = SOURCE_ROOT; };
+		4619AB6AD2B17E736E1847C8 /* BulkTrack/Core/CalendarFitnessPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Core/CalendarFitnessPlan.swift; sourceTree = SOURCE_ROOT; };
+		4818E3E77D3E168A07544557 /* BulkTrack/Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Models.swift; sourceTree = SOURCE_ROOT; };
+		698F2C192493AC4D4B308680 /* BulkTrack/Core/USUnits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Core/USUnits.swift; sourceTree = SOURCE_ROOT; };
+		8D7FAFD992E8DEA417EB9A8C /* BulkTrack/Core/WeightTrend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Core/WeightTrend.swift; sourceTree = SOURCE_ROOT; };
+		8EF8F06F0AAB1F32982FA57A /* BulkTrack/Core/SleepIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Core/SleepIntervals.swift; sourceTree = SOURCE_ROOT; };
+		92D58E8A19B38E2AEF143844 /* BulkTrack/Core/WorkoutPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Core/WorkoutPlan.swift; sourceTree = SOURCE_ROOT; };
+		A73ABCE4686B81E04DE0115B /* BulkTrack/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BulkTrack/Info.plist; sourceTree = SOURCE_ROOT; };
+		A8C1DAD9E04B21299E3292E3 /* BulkTrack/Views/DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Views/DashboardView.swift; sourceTree = SOURCE_ROOT; };
+		AA4ACA445B3FBAF47CDE31AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		AD134E3CDCFE93F26E7AA9FF /* BulkTrack/HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/HealthKitManager.swift; sourceTree = SOURCE_ROOT; };
+		BF906F386D323E92A6AF5792 /* BulkTrack/Views/EntryForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Views/EntryForms.swift; sourceTree = SOURCE_ROOT; };
+		C1A605900FAE91D96FDF878B /* BulkTrack/Core/TrackingCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Core/TrackingCalendar.swift; sourceTree = SOURCE_ROOT; };
+		DFEB2C861A7ED9EDBD24303C /* BulkTrack/Views/ProgressChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Views/ProgressChartsView.swift; sourceTree = SOURCE_ROOT; };
+		EDE84CD7A89F0170B0FB7667 /* BulkTrack/Views/GymCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Views/GymCalendarView.swift; sourceTree = SOURCE_ROOT; };
+		F1FF750154625DCDEFFA0070 /* BulkTrack/Core/Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Core/Routine.swift; sourceTree = SOURCE_ROOT; };
+		F9CFE1F2F2DA90D38B9C5A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BulkTrack/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		CFA9A4FE8BF504AC911EEFF7 /* NumericInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Core/NumericInput.swift; sourceTree = SOURCE_ROOT; };
+		85A97E239BBFB9879826E563 /* BulkTrack/Core/BackupSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Core/BackupSnapshot.swift; sourceTree = SOURCE_ROOT; };
+		04F0954B3736A0670A255E37 /* BulkTrack/Core/TrainingSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Core/TrainingSchedule.swift; sourceTree = SOURCE_ROOT; };
+		4C47D9481F1046DFB3FCDAB8 /* BulkTrack/DataBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/DataBackup.swift; sourceTree = SOURCE_ROOT; };
+		6FF6EC3648F3A8EECCA995DD /* BulkTrack/Views/NutritionDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Views/NutritionDiaryView.swift; sourceTree = SOURCE_ROOT; };
+		1DBACD91B846E9B3864B74A8 /* BulkTrack/Views/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Views/SettingsView.swift; sourceTree = SOURCE_ROOT; };
+		7E7003D915B374794F2133E1 /* BulkTrack/Views/TrainingScheduleEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Views/TrainingScheduleEditor.swift; sourceTree = SOURCE_ROOT; };
+		3C667DCEE071BEAB768B4E8C /* BulkTrack/Views/WorkoutSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTrack/Views/WorkoutSessionView.swift; sourceTree = SOURCE_ROOT; };
+		AB0000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/UI/BulkTrackUITests.swift; sourceTree = SOURCE_ROOT; };
+		AB0000000000000000000003 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = BulkTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0000000000000000000007 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+                AB0000000000000000000002,
+				02369CDA451A6EC3F16D59CB /* BulkTrack/BulkTrackApp.swift */,
+				41F0A4900560CB7DE0CA22A7 /* BulkTrack/Core/CalorieEngine.swift */,
+				F1FF750154625DCDEFFA0070 /* BulkTrack/Core/Routine.swift */,
+				8EF8F06F0AAB1F32982FA57A /* BulkTrack/Core/SleepIntervals.swift */,
+				C1A605900FAE91D96FDF878B /* BulkTrack/Core/TrackingCalendar.swift */,
+				1D644F81185B3957FBEA4F2F /* BulkTrack/DiaryStore.swift */,
+				AD134E3CDCFE93F26E7AA9FF /* BulkTrack/HealthKitManager.swift */,
+				4818E3E77D3E168A07544557 /* BulkTrack/Models.swift */,
+				A8C1DAD9E04B21299E3292E3 /* BulkTrack/Views/DashboardView.swift */,
+				BF906F386D323E92A6AF5792 /* BulkTrack/Views/EntryForms.swift */,
+				EDE84CD7A89F0170B0FB7667 /* BulkTrack/Views/GymCalendarView.swift */,
+				DFEB2C861A7ED9EDBD24303C /* BulkTrack/Views/ProgressChartsView.swift */,
+				A73ABCE4686B81E04DE0115B /* BulkTrack/Info.plist */,
+				3AECD65E9DB6AF157AB9B203 /* BulkTrack/BulkTrack.entitlements */,
+				698F2C192493AC4D4B308680 /* BulkTrack/Core/USUnits.swift */,
+				8D7FAFD992E8DEA417EB9A8C /* BulkTrack/Core/WeightTrend.swift */,
+				92D58E8A19B38E2AEF143844 /* BulkTrack/Core/WorkoutPlan.swift */,
+				2BE7E0884872C2E0EF1E65FB /* BulkTrack/Views/DesignSystem.swift */,
+				1A3520105B874B002F524DE8 /* BulkTrack/Views/TrainingPlanView.swift */,
+				4619AB6AD2B17E736E1847C8 /* BulkTrack/Core/CalendarFitnessPlan.swift */,
+				F9CFE1F2F2DA90D38B9C5A19 /* Assets.xcassets */,
+				CFA9A4FE8BF504AC911EEFF7 /* NumericInput.swift */,
+				85A97E239BBFB9879826E563 /* BulkTrack/Core/BackupSnapshot.swift */,
+				04F0954B3736A0670A255E37 /* BulkTrack/Core/TrainingSchedule.swift */,
+				4C47D9481F1046DFB3FCDAB8 /* BulkTrack/DataBackup.swift */,
+				6FF6EC3648F3A8EECCA995DD /* BulkTrack/Views/NutritionDiaryView.swift */,
+				1DBACD91B846E9B3864B74A8 /* BulkTrack/Views/SettingsView.swift */,
+				7E7003D915B374794F2133E1 /* BulkTrack/Views/TrainingScheduleEditor.swift */,
+				3C667DCEE071BEAB768B4E8C /* BulkTrack/Views/WorkoutSessionView.swift */,
+				AA4ACA445B3FBAF47CDE31AC /* README.md */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+                AB0000000000000000000003,
+				38A007151ABE87CC01A5B6E9 /* BulkTrack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* BulkTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57128001CE614BF8549D6BB /* Build configuration list for PBXNativeTarget "BulkTrack" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulkTrack;
+			productName = BulkTrack;
+			productReference = 38A007151ABE87CC01A5B6E9 /* BulkTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+
+        AB0000000000000000000004 = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = AB0000000000000000000005;
+            buildPhases = (AB0000000000000000000006, AB0000000000000000000007,);
+            buildRules = ();
+            dependencies = (AB0000000000000000000011,);
+            name = BulkTrackUITests;
+            productName = BulkTrackUITests;
+            productReference = AB0000000000000000000003;
+            productType = "com.apple.product-type.bundle.ui-testing";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 16.0;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "BulkTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+                AB0000000000000000000004,
+				0E8A3AD980EC179856012B7E /* BulkTrack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF92DE36F795A03BA70A178D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97FE16DD5EC8561C912BDF3E /* BulkTrack/BulkTrackApp.swift in Sources */,
+				37DE405E39FA6DEA1E5C527A /* BulkTrack/Core/CalorieEngine.swift in Sources */,
+				7A12F085D804FFA9460DD7D7 /* BulkTrack/Core/Routine.swift in Sources */,
+				F5A0192B813686C44889357B /* BulkTrack/Core/SleepIntervals.swift in Sources */,
+				1506E762EE2077EF748D1852 /* BulkTrack/Core/TrackingCalendar.swift in Sources */,
+				0A7B1C56E2FE1DCD48242126 /* BulkTrack/DiaryStore.swift in Sources */,
+				39AFCB2F09943F994940B98A /* BulkTrack/HealthKitManager.swift in Sources */,
+				693524F7E896AC04B2932137 /* BulkTrack/Models.swift in Sources */,
+				5CBCDBE2280933A254A86387 /* BulkTrack/Core/USUnits.swift in Sources */,
+				99836AED767A35803C02B5DF /* BulkTrack/Core/WeightTrend.swift in Sources */,
+				EA9C2853E7160F0116C7BF0D /* BulkTrack/Core/WorkoutPlan.swift in Sources */,
+				7536B1E066C9ED194EA2ABF7 /* BulkTrack/Views/DesignSystem.swift in Sources */,
+				2F67FD77A78B33AECC81014E /* BulkTrack/Views/TrainingPlanView.swift in Sources */,
+				9FFB8513B348F2DC7A586F50 /* BulkTrack/Core/CalendarFitnessPlan.swift in Sources */,
+				A012EA51B4A766E90CA7F0EA /* NumericInput.swift in Sources */,
+				B3220D3FF0C7BED503B8907A /* BulkTrack/Views/DashboardView.swift in Sources */,
+				83407BDFBF38AE924383C3B0 /* BulkTrack/Views/EntryForms.swift in Sources */,
+				4EE2BE9F0FBD690002C66F71 /* BulkTrack/Views/GymCalendarView.swift in Sources */,
+				52394D8F4B214B3BFA042FAD /* BulkTrack/Views/ProgressChartsView.swift in Sources */,
+				7D115FC8E0F1B04FB5ABB002 /* BulkTrack/Views/WorkoutSessionView.swift in Sources */,
+				85F4301B19659C896590D62A /* BulkTrack/Views/TrainingScheduleEditor.swift in Sources */,
+				F823DEAB033A77F63CFB5C98 /* BulkTrack/Views/SettingsView.swift in Sources */,
+				9634D1C80BBD58F1F4B774F9 /* BulkTrack/Views/NutritionDiaryView.swift in Sources */,
+				DCBC45332357D0734799B5F0 /* BulkTrack/DataBackup.swift in Sources */,
+				ECB579E5944D6600AF68D940 /* BulkTrack/Core/TrainingSchedule.swift in Sources */,
+				BC471318843956ECFF4F0971 /* BulkTrack/Core/BackupSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0000000000000000000006 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (AB0000000000000000000001,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		639A7CA24D39909E713B47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BulkTrack/BulkTrack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J624QHP9Y7;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BulkTrack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milad.bulktrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7082CC0B6FC1282FCEABD07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BulkTrack/BulkTrack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J624QHP9Y7;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BulkTrack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milad.bulktrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+        AB0000000000000000000008 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = J624QHP9Y7;
+                GENERATE_INFOPLIST_FILE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.milad.bulktrack.uitests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1;
+                TEST_TARGET_NAME = BulkTrack;
+            };
+            name = Debug;
+        };
+        AB0000000000000000000009 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = J624QHP9Y7;
+                GENERATE_INFOPLIST_FILE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.milad.bulktrack.uitests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1;
+                TEST_TARGET_NAME = BulkTrack;
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "BulkTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57128001CE614BF8549D6BB /* Build configuration list for PBXNativeTarget "BulkTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7082CC0B6FC1282FCEABD07A /* Debug */,
+				639A7CA24D39909E713B47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0000000000000000000005 = {isa = XCConfigurationList; buildConfigurations = (AB0000000000000000000008, AB0000000000000000000009,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
